@@ -25,3 +25,8 @@ print(my_tuple)
 print(my_dict)
 
 print(my_dict['Age'])
+
+def my_data(msg):
+    print("Message is: "+ msg)
+
+my_data("Hello, world!!")
