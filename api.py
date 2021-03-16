@@ -1,8 +1,15 @@
-import requests
+import flask
+from flask import request, jsonify
+
+app = flask.Flask(__name__)
+app.config["DEBUG"] = True
+
+@app.route('/', methods=['GET'])
+
+def home():
+    return '''<h1>Welcome to my API</h1>
+    <p>API's in Python are cool</p>'''
+
+app.run()
 
 
-uri = "https://jsonplaceholder.typicode.com/users"
-
-res = requests.get(uri)
-
-print(res.json())

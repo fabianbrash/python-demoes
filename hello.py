@@ -13,4 +13,11 @@ print(headers)
 print(txt)
 
 print(json)
+print("\n\n")
 
+uri = "https://jsonplaceholder.typicode.com/users"
+print("Getting data from: "+ uri)
+print("\n\n")
+res2 = requests.get(uri)
+
+print(res2.json())
