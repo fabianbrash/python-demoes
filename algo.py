@@ -13,8 +13,8 @@ print(sum(5,6,7))
 
 # closure
 
-def myfunc(n):
-  return lambda a: a * n
+def myfunc(multiplier):
+  return lambda a: a * multiplier
 
 mydoubler = myfunc(2)
 
