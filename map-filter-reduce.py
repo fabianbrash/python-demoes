@@ -6,9 +6,6 @@ result = reduce((lambda a, b: a + b), arr)
 print(result)
 
 
-
-
-from functools import reduce
 # Returns the sum of two elements
 def sumTwo(a,b):
     return a+b
