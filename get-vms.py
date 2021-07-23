@@ -32,7 +32,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-@app.get("/vms")
+@app.get("/api/v1/vms")
 def return_vms():
     get_vc_session(vc_name,vc_user,vc_pass)
     resp = get_vms(vc_name)
