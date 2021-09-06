@@ -16,7 +16,7 @@ folders = [{
 #print(data[0]["name"])
 
 for folder in folders:
-    print(f"Folder:{folder['folder]}({folder['name']})")
+    print(f"Folder:{folder['folder']}({folder['name']})")
 
 def getFolderName():
     theFolder = "group-v1772"
