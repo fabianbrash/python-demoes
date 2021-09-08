@@ -1,6 +1,10 @@
 # Big O notation
 
 
+def separator():
+
+    print("===================================================")
+
 def foo():
     arr = [1, 2, 3, 4, 5]
     sum = 0
@@ -9,6 +13,7 @@ def foo():
         sum+=i
     print(sum)
 
+separator()
 foo()
 
 
@@ -22,5 +27,6 @@ def fooo():
             product = i*j
             print(product)
 
-
+separator()
 fooo()
+separator()
